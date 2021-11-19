@@ -1,0 +1,109 @@
+body{
+    background-color: #212121;
+}
+
+.frase{
+    font-size: 20px;
+    color: #e830ce;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+h1{
+    padding: 0% 5%;
+}
+
+.frase img{
+    width: 12%;
+    padding: 0% 5%;
+}
+
+.novedades{
+    font-size: 25px;
+    color: #55ffe2;
+    display: flex;
+    flex-direction: column;
+}
+
+.new{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.new img{
+    width: 16%;
+    padding: 20px;
+}
+
+.down{
+    color: #fff;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.top{
+    background-color: #303030;
+    margin: 75px 0px 25px 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    width: 50%;
+}
+
+.top img{
+    width: 90%;
+}
+
+#tp{
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+    margin: 5px 10px;
+}
+
+.promociones{
+    background-color: #303030;
+    border-radius: 5px;
+    margin: 75px 200px 25px 100px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    height: 10%;
+}
+
+.contprom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.promociones img{
+    width: 80%;
+    margin-bottom: 45px;
+}
+
+#promo{
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+    margin: 2%;
+}
+
+.top h2{
+    color: red;
+}
+
+.promociones h2{
+    color: red;
+}
+
+h4{
+    font-size: 20px;
+}
