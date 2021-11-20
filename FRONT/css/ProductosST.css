@@ -1,0 +1,78 @@
+body{
+    background-color: #212121;
+    color: #fff;
+}
+hr{
+    
+}
+
+.big{
+    margin: 3%;
+    padding: 2% 2% 2% 2%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contenedor{
+    background: linear-gradient(89.17deg,#1a1a1a 12.64%,#454545 173.99%);
+    box-shadow: 18.2518px 24.1017px 58.4993px 4.67994px rgb(0 0 0 / 40%);
+    border: 1px solid #454545;
+    border-radius: 4px;
+    margin: 1%;
+    width: 25%;
+    height: 45%;
+}
+
+.producto{
+    padding: 4% 8%;
+}
+
+.foto{
+    text-align: center;
+}
+
+.foto img{
+    width: 80%;
+    height: 80%;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(45deg,transparent,red,transparent);
+    margin: 10px auto 8px;
+}
+
+.texto{
+    height: 110px;
+}
+
+.precio{
+    padding: 4% 8%;
+}
+
+.precio p{
+    font-size: 25px;
+}
+
+button{
+    background-color: transparent;
+    color: red;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid red;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    transition: all 500ms ease;
+}
+
+button:hover{
+    background-color: red;
+    color: #fff;
+    transition: all 500ms ease;
+}
