@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Proyecto-Desarrollo-Web/FRONT/css/styles.css">
+    <link rel="stylesheet" href="/FRONT/css/styles.css">
     <title>V08/10</title>
 </head>
 <body>
 
         <header>
 
+            
+            
+        </header>
+        <section>
             <div class="frase">
 
                 <h1>Construye, mejora y personaliza <br>
@@ -18,28 +22,47 @@
                 <img src="/Proyecto-Desarrollo-Web/source/img/Logo.jpg" alt="Logo">
 
             </div>
-            
-        </header>
-            
+        </section>
         <br>
 
-        <div class="novedades">
+        <!-- Inicio Slider -->
 
-            <center>
-                <h2>Novedades</h2>
-            </center>
-
-            <div class="new">
-                
-            <img src="/Proyecto-Desarrollo-Web/source/img/Kingston.jpg" alt="Kingston">
-            <img src="/Proyecto-Desarrollo-Web/source/img/XPG.jpg" alt="XPG">
-            <img src="/Proyecto-Desarrollo-Web/source/img/RamRGB.jpg" alt="RamRGBA">
-            <img src="/Proyecto-Desarrollo-Web/source/img/Ryzen5G.jpg" alt="Ryzen5G">
-            <img src="/Proyecto-Desarrollo-Web/source/img/AirPods.jpg" alt="AirPods">
-
+        <div class="container-slider">
+            <div class="slider" id="slider">
+              <div class="slider__section">
+                <img src="https://www.amd.com/system/files/2020-09/616656-amd-ryzen-5-5000-series-PIB-fan-1260x709.png" alt="" class="slider__img">
+                <div class="slider__content">
+                  <h2 class="slider__title">Novedades</h2>
+                  <a href="" class="btn-shop">SHOP NOW</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="https://universovyoleta.com/wp-content/uploads/2020/10/Banner-Principal-2-SSD-KINGSTON-A400-240GB-SATA3-opt.png" alt="" class="slider__img">
+                <div class="slider__content">
+                  <h2 class="slider__title">Novedades</h2>
+                  <a href="" class="btn-shop">SHOP NOW</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="https://www.corsair.com/medias/sys_master/images/images/hdb/hd7/9255154090014/-CMK16GX4M2E3200C16-Gallery-VENG-LPX-BLK-01.png" alt="" class="slider__img">
+                <div class="slider__content">
+                  <h2 class="slider__title">Novedades</h2>
+                  <a href="" class="btn-shop">SHOP NOW</a>
+                </div>
+              </div>
+              <div class="slider__section">
+                <img src="https://images.samsung.com/is/image/samsung/es-860-pro-sata-3-2-5-inch-ssd-mz-76p512b-eu-frontblack-90707704?$720_576_PNG$" alt="" class="slider__img">
+                <div class="slider__content">
+                  <h2 class="slider__title">Novedades</h2>
+                  <a href="" class="btn-shop">SHOP NOW</a>
+                </div>
+              </div>
             </div>
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+          </div>
 
-        </div>
+          <!-- Fin slider -->
 
         <div class="down">
 
@@ -160,6 +183,7 @@
             </div>
         
         </div>
-
+        <!-- Script Slider -->
+        <script src="/BACK/js/index.js"></script>
 </body>
 </html>
