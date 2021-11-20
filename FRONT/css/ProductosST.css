@@ -9,6 +9,7 @@ hr{
 .big{
     margin: 3%;
     padding: 2% 2% 2% 2%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -45,7 +46,7 @@ hr{
 }
 
 .texto{
-
+    height: 110px;
 }
 
 .precio{
