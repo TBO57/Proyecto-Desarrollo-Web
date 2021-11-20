@@ -4,41 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Proyecto-Desarrollo-Web/FRONT/css/plantilla.css">
+    <link rel="stylesheet" href="/FRONT/css/plantilla.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-
+    <!-- Fontawesome -->
     <title>V08/10</title>
 </head>
 <body>
 
     <!-- Inicio del Header -->
 
-    <header>
-        <div class="navbar">
-            <div class="logo">
-                <img src="/Proyecto-Desarrollo-Web/FRONT/img/logo.png" alt="logo">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="/Proyecto-Desarrollo-Web/FRONT/html/index.html">Inicio</a></li>
-                    <li><a href="/Proyecto-Desarrollo-Web/FRONT/html/nosotros.html">Nosotros</a></li>
-                    <li><a href="/Proyecto-Desarrollo-Web/FRONT/html/servicios.html">Servicios</a></li>
-                    <li><a href="/Proyecto-Desarrollo-Web/FRONT/html/contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="search">
-                <form action="/Proyecto-Desarrollo-Web/FRONT/html/busqueda.html" method="get">
-                    <input type="text" name="busqueda" placeholder="Buscar...">
-                    <button type="submit">Buscar</button>
-                </form>
-            </div>
+    <header class="main-header">
+        <div class="container container--flex">
+          <div class="main-header__container">
+            <h1 class="main-header__title">V08/10</h1>
+            <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+            <nav class="main-nav" id="main-nav">
+              <ul class="menu">
+                <li class="menu__item"><a href="" class="menu__link">HOME</a></li>
+                <li class="menu__item"><a href="" class="menu__link">ABOUT</a></li>
+                <li class="menu__item"><a href="" class="menu__link">FEATURES</a></li>
+                <li class="menu__item"><a href="" class="menu__link">SHOP</a></li>
+                <li class="menu__item"><a href="" class="menu__link">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main-header__container">
+            <span class="main-header__txt">Need Help</span>
+            <p class="main-header__txt"><i class="fas fa-phone"></i> Call 12345678099</p>
+          </div>
+          <div class="main-header__container">
+            <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+            <a href="" class="main-header__btn">My cart <i class="fas fa-shopping-cart"></i></a>
+            <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+          </div>
         </div>
-    </header>
+      </header>
     
     <!-- Fin del Header -->
-
+    <div class="container-slider">
+      <div class="slider" id="slider">
+        <div class="slider__section">
+          <img src="https://www.amd.com/system/files/2020-09/616656-amd-ryzen-5-5000-series-PIB-fan-1260x709.png" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Novedades</h2>
+            <a href="" class="btn-shop">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="https://universovyoleta.com/wp-content/uploads/2020/10/Banner-Principal-2-SSD-KINGSTON-A400-240GB-SATA3-opt.png" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Novedades</h2>
+            <a href="" class="btn-shop">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="https://www.corsair.com/medias/sys_master/images/images/hdb/hd7/9255154090014/-CMK16GX4M2E3200C16-Gallery-VENG-LPX-BLK-01.png" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Novedades</h2>
+            <a href="" class="btn-shop">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="slider__section">
+          <img src="https://images.samsung.com/is/image/samsung/es-860-pro-sata-3-2-5-inch-ssd-mz-76p512b-eu-frontblack-90707704?$720_576_PNG$" alt="" class="slider__img">
+          <div class="slider__content">
+            <h2 class="slider__title">Novedades</h2>
+            <a href="" class="btn-shop">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+      <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+    </div>
     <!-- Inicio del Main -->
 
     <main>
@@ -108,5 +147,6 @@
 
 
     <!-- Fin del Footer -->
+    <script src="/BACK/js/index.js"></script>
 </body>
 </html>
