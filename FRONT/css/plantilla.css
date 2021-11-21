@@ -3,94 +3,12 @@
 }
 body {
   margin: 0;
-  font-family: "Inconsolata";
 }
 img {
   display: block;
   width: 100%;
 }
 /* Imicio headrer */
-.main-header {
-  padding: 0 20px;
-}
-.main-header__title{
-  text-align: center;
-  font-size: 2.5em;
-  margin: 10px 0;
-  color: #454546;
-  font-family: "Poppins";
-}
-.main-header__container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.main-header__link {
-  color: #333;
-}
-  
-/* Estilos del Menu */
-.main-nav {
-  opacity: 0;
-  /* visibility: hidden; */
-  transition: all 0.5s;
-  z-index: 999999;
-}
-.menu{
-  position: absolute;
-  top: 180px;
-  left: 0;
-  background: #212121;
-  width: 100%;
-  list-style: none;
-  padding: 0px;
-  margin: 0;
-}
-.menu__item {
-  text-align: center;
-  margin: auto;
-}
-.menu__link {
-  padding: 20px;
-  color: white;
-  text-decoration: none;
-  position: relative;
-  display: block;
-}
-.menu__link:hover {
-  background: white;
-  color: #212121;
-}
-.mostrar{
-  opacity: 1;
-  visibility: visible;
-}
-
-.icon-menu{
-  font-size: 1.5em;
-  border: 1px solid #454546; 
-  display: block;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin-left: auto;
-}
-.main-header__btn{
-  display: block;
-  padding: 10px 30px;
-  color: #454546;
-  border: 1px solid #454546;
-  text-decoration: none;
-}
-.main-header__input{
-  display: block;
-  padding: 10px;
-  width: 50%;
-}   
-.main {
-  padding: 0 20px;
-}
-
-/* Fin Header */
 
 /* ESTILOS DE SLIDER */
 .container-slider{
