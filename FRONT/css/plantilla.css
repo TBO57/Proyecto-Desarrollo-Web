@@ -16,7 +16,7 @@ img {
 header{
   width: 100%;
   height: auto;
-  background-color: #1c1c1c;
+  background-color: black;
 }
 .nav_header{
   width: 100%;
@@ -44,8 +44,8 @@ h1, a{
   position: fixed;
   width: 100%;
   height: 0vh;
-  top: 100px;
-  background-color: #1c1c1c;
+  top: 60px;
+  background-color: black;
   text-align:center;
   transition: all .5s;
   z-index: 3;
@@ -76,6 +76,9 @@ h1, a{
 #check:checked ~ .nav-menu li {
   display:block;
 }
+
+
+
 /* ESTILOS DE SLIDER */
 .container-slider{
 margin: 50px 0;
@@ -164,7 +167,42 @@ transition: all 0.5s;
 background: red;
 color: white;
 }
-/* FIN ESTILOS DE SLIDER */
+/* inicio del footer */
+footer{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.copyright{
+  color: #fff;
+  width: 100%;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0 10px 20%;
+}
+.copyright p{
+  width: 100%;
+}
+.politica{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px 20% 10px 0;
+}
+.politica a{
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 10px;
+}
+.politica a:hover{
+  color: red;
+  transition: all 500ms ease;
+}
 
 /*Estilos para tablet*/
 @media screen and (min-width:768px){

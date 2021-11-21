@@ -3,7 +3,7 @@ let mainNav = document.getElementById('main-nav');
 btnMenu.addEventListener('click', function(){
   mainNav.classList.toggle('mostrar');
 });
-/* Inicio Slider */
+
 const slider = document.querySelector("#slider");
 let sliderSection = document.querySelectorAll(".slider__section");
 let sliderSectionLast = sliderSection[sliderSection.length -1];
@@ -47,4 +47,3 @@ btnLeft.addEventListener('click', function(){
 setInterval(function(){
   Next();
 }, 5000);
-/* Inicio Slider */
